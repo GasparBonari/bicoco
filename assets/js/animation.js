@@ -191,3 +191,15 @@ wow = new WOW(
   }
 );
 wow.init();
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const lines = document.querySelectorAll(".line");
+
+  lines.forEach((line, index) => {
+    const size = index + 1;
+    line.style.height = `${size * 1}px`;
+
+  });
+});
