@@ -193,7 +193,6 @@ wow = new WOW(
 wow.init();
 
 
-
 document.addEventListener("DOMContentLoaded", function () {
   const lines = document.querySelectorAll(".line");
 
