@@ -1100,13 +1100,12 @@ Portfolio
 
 .our-portfolio {
   padding-top: 120px;
-  margin-top: 0px;
+  margin-top: 100px;
 }
 
 .our-portfolio .section-heading h2 {
   text-align: center;
   margin: 0px 90px 0px 90px;
-  margin-bottom: 120px;
   position: relative;
   z-index: 1;
 }
@@ -1115,24 +1114,16 @@ Portfolio
   position: relative;
 }
 
-.our-portfolio .item:hover .hidden-content {
-  top: -200px;
-  opacity: 1;
-  visibility: visible;
-}
-
 .our-portfolio .item:hover .showed-content {
-  top: 100px;
+  top: 0px;
 }
 
-.our-portfolio .hidden-content {
-  padding: 30px;
-  text-align: center;
-  opacity: 0;
+.our-portfolio .showed-content {
   top: 0;
-  visibility: hidden;
-  position: absolute;
-  z-index: 2;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 30px;
   transition: all 0.5s;
 
   background: rgba(255, 255, 255, 0.22);
@@ -1143,42 +1134,10 @@ Portfolio
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.our-portfolio .hidden-content:after {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background: rgba(255, 255, 255, 0.22);
-  content: '';
-  left: 50%;
-  bottom: -8px;
-  margin-left: -5px;
-  transform: rotate(45deg);
-  background: linear-gradient(105deg, rgba(255, 255, 255, 0.052) 0%, rgba(255, 255, 255, 0.22) 100%);
-  z-index: -1;
-}
-
-.our-portfolio .hidden-content h4 {
-  font-size: 20px;
+.showed-content h4{
+  color: white;
   font-weight: 700;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.our-portfolio .hidden-content p {
-  color: #fff;
-}
-
-.our-portfolio .showed-content {
-  top: 0px;
-  position: relative;
-  z-index: 3;
-  text-align: center;
-  padding: 30px;
-  transition: all 0.5s;
-}
-
-.our-portfolio .showed-content img {
-  max-width: 200px;
+  margin-bottom: 10px;
 }
 
 
