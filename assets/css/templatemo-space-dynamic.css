@@ -952,14 +952,6 @@ About Us Style
 --------------------------------------------- 
 */
 
-.about-us {
-  background-image: url(../images/about-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 140px 0px 120px 0px;
-}
-
 .about-us .left-image {
   margin-right: 45px;
 }
@@ -1007,7 +999,7 @@ Services Style
   background-repeat: no-repeat;
   position: absolute;
   left: -311px;
-  top: 45cm;
+  top: 63cm;
   width: 571px;
   height: 649px;
   opacity: 20%;
@@ -1483,6 +1475,7 @@ responsive
   justify-content: space-around;
   gap: 20px;
   align-items: center;
+  margin-top: 60px;
 }
 
 .logo-items img{
